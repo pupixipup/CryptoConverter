@@ -28,3 +28,45 @@
     font-weight: 600;
   }
 }
+
+.main {
+}
+.wrapper {
+}
+.converter {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+		// .converter__field
+
+		&__field {
+      border: 2px solid gray;
+      border-radius: 10px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      
+		}
+
+		// .converter__input
+
+		&__input {
+      outline: none;
+      border: none;
+		}
+
+		// .converter__select
+
+		&__select {
+      font-family: 'Arial', sans-serif;
+      font-size: 24px;
+      cursor: pointer;
+		}
+}
