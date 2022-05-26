@@ -1,0 +1,22 @@
+.header {
+  padding-top: 24px;
+  // .header__wrapper
+  &__wrapper {
+    font-family: 'Oswald', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  // .header__title
+
+  &__title {
+    font-size: 36px;
+  }
+  &__title b {
+    color: #34dbce;
+  }
+  &__title, &__title b {
+    font-family: inherit;
+    font-weight: 600;
+  }
+}
