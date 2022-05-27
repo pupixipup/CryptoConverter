@@ -20,7 +20,7 @@ module.exports = {
       filename: "index.html",
       template: "src/index.html",
     }),
-    new ESLintPlugin(),
+    // new ESLintPlugin(),
   ],
   module: {
     rules: [

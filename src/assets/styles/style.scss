@@ -1,4 +1,9 @@
+body {
+  background-color: rgb(236, 237, 242);
+}
+
 .header {
+  background-color: white;
   padding-top: 24px;
   box-shadow: 0 8px 6px -6px #ccc;
   // .header__wrapper
@@ -29,8 +34,7 @@
   }
 }
 
-.main {
-}
+
 .wrapper {
 }
 .converter {
@@ -46,6 +50,7 @@
 		// .converter__field
 
 		&__field {
+      background-color: #fff;
       border: 2px solid gray;
       border-radius: 10px;
       padding: 10px;
@@ -60,6 +65,7 @@
 		&__input {
       outline: none;
       border: none;
+      font-size: 18px;
 		}
 
 		// .converter__select
