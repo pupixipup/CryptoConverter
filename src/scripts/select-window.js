@@ -65,24 +65,25 @@ function setCurrency(event) {
         selectedCurrency;
       selectedCurrencyValueBTC2 = obj[arrayIndex].btcPrice;
       fieldTwo.dataset.btcprice = obj[arrayIndex].btcPrice;
+
     } else if (event.target.parentElement.classList.contains("from-select")) {
       document.querySelector(".from .converter__select").innerText =
         selectedCurrency;
       selectedCurrencyValueBTC1 = obj[arrayIndex].btcPrice;
       fieldOne.dataset.btcprice = obj[arrayIndex].btcPrice;
     }
-    console.log(selectedCurrencyValueBTC1 + " :1 ");
-    console.log(selectedCurrencyValueBTC2 + " :2 ");
+
+    convertCurrency(fieldOne, fieldTwo);
   }
 }
-fieldOne.addEventListener("focusout", () => {
+fieldOne.addEventListener("input", () => {
   convertCurrency(fieldOne, fieldTwo);
-});
-fieldTwo.addEventListener("focusout", () => {
-  convertCurrency(fieldTwo, fieldOne);
 });
 
 function convertCurrency(inputFrom, inputTo) {
-  let value = inputFrom.value;
+  let value = Number.parseFloat(inputFrom.value).toFixed(6);
   inputTo.value = (value * inputFrom.dataset.btcprice) / inputTo.dataset.btcprice;
 }
+
+//
+document.querySelector('.disclaimer').remove();
