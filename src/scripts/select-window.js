@@ -61,14 +61,24 @@ function setCurrency(event) {
     selectedCurrency = event.target.innerText;
     let arrayIndex = event.target.dataset.index;
     if (event.target.parentElement.classList.contains("to-select")) {
-      document.querySelector(".to .converter__select").innerText =
-        selectedCurrency;
+      let toCurrency = document.querySelector(".to .converter__select");
+      toCurrency.innerText = selectedCurrency;
+
+      if (selectedCurrency.length >= 12) {
+        toCurrency.classList.add("long-text");
+      } else {
+        toCurrency.classList.remove("long-text");
+      }
       selectedCurrencyValueBTC2 = obj[arrayIndex].btcPrice;
       fieldTwo.dataset.btcprice = obj[arrayIndex].btcPrice;
-
     } else if (event.target.parentElement.classList.contains("from-select")) {
-      document.querySelector(".from .converter__select").innerText =
-        selectedCurrency;
+      let fromCurrency = document.querySelector(".from .converter__select");
+      fromCurrency.innerText = selectedCurrency;
+      if (selectedCurrency.length >= 12) {
+        fromCurrency.classList.add("long-text");
+      } else {
+        fromCurrency.classList.remove("long-text");
+      }
       selectedCurrencyValueBTC1 = obj[arrayIndex].btcPrice;
       fieldOne.dataset.btcprice = obj[arrayIndex].btcPrice;
     }
@@ -82,8 +92,9 @@ fieldOne.addEventListener("input", () => {
 
 function convertCurrency(inputFrom, inputTo) {
   let value = Number.parseFloat(inputFrom.value).toFixed(6);
-  inputTo.value = (value * inputFrom.dataset.btcprice) / inputTo.dataset.btcprice;
+  inputTo.value =
+    (value * inputFrom.dataset.btcprice) / inputTo.dataset.btcprice;
 }
 
 //
-document.querySelector('.disclaimer').remove();
+document.querySelector(".disclaimer").remove();

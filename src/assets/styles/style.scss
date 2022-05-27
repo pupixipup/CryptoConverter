@@ -38,7 +38,7 @@ body {
 .wrapper {
 }
 .converter {
-  max-width: 780px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   height: 60vh;
@@ -50,6 +50,9 @@ body {
 		// .converter__field
 
 		&__field {
+      height: 65px;
+      max-width: 400px;
+      width: 100%;
       background-color: #fff;
       border: 2px solid gray;
       border-radius: 10px;
@@ -63,6 +66,7 @@ body {
 		// .converter__input
 
 		&__input {
+      flex-grow: 1;
       outline: none;
       border: none;
       font-size: 18px;
@@ -71,8 +75,9 @@ body {
 		// .converter__select
 
 		&__select {
+      text-align: right;
       font-family: 'Arial', sans-serif;
-      font-size: 24px;
+      font-size: 18px;
       cursor: pointer;
       transition: .4s;
 		}
@@ -121,7 +126,7 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    gap: 0px;
+    gap:  0px;
   }
 }
 
@@ -142,4 +147,8 @@ body {
 .equals {
   font-size: 56px;
   user-select: none;
+}
+
+.long-text {
+  font-size: 12px;
 }
