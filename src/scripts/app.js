@@ -5,6 +5,7 @@ async function getJson() {
     method: 'POST',
   })
   let data = await response.json();
+  document.querySelector('.load').remove();
   return data;
 }
 
