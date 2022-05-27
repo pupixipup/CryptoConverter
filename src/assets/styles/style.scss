@@ -60,7 +60,6 @@ body {
       display: flex;
       align-items: center;
       gap: 25px;
-      
 		}
 
 		// .converter__input
@@ -70,6 +69,7 @@ body {
       outline: none;
       border: none;
       font-size: 18px;
+      border-bottom: 2px solid grey;
 		}
 
 		// .converter__select
@@ -151,4 +151,16 @@ body {
 
 .long-text {
   font-size: 12px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
