@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*******************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  background-color: rgb(236, 237, 242);\\n}\\n\\n.header {\\n  background-color: white;\\n  padding-top: 24px;\\n  box-shadow: 0 8px 6px -6px #ccc;\\n}\\n.header__wrapper {\\n  font-family: \\\"Oswald\\\", sans-serif;\\n  max-width: 1280px;\\n  margin: 0 auto;\\n  padding: 0 24px 24px 24px;\\n}\\n.header__title {\\n  font-size: 36px;\\n}\\n.header__subtitle {\\n  padding-top: 12px;\\n  font-size: 14px;\\n  font-family: \\\"Arial\\\", sans-serif;\\n  font-weight: light;\\n}\\n.header__title b {\\n  color: #34dbce;\\n}\\n.header__title, .header__title b {\\n  font-family: inherit;\\n  font-weight: 600;\\n}\\n\\n.converter {\\n  max-width: 900px;\\n  margin-left: auto;\\n  margin-right: auto;\\n  height: 60vh;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  gap: 30px;\\n  justify-content: space-between;\\n}\\n.converter__field {\\n  height: 65px;\\n  max-width: 400px;\\n  width: 100%;\\n  background-color: #fff;\\n  border: 2px solid gray;\\n  border-radius: 10px;\\n  padding: 10px;\\n  display: flex;\\n  align-items: center;\\n  gap: 25px;\\n}\\n.converter__input {\\n  flex-grow: 1;\\n  outline: none;\\n  border: none;\\n  font-size: 18px;\\n  border-bottom: 2px solid grey;\\n}\\n.converter__select {\\n  text-align: right;\\n  font-family: \\\"Arial\\\", sans-serif;\\n  font-size: 18px;\\n  cursor: pointer;\\n  transition: 0.4s;\\n}\\n.converter__select:hover {\\n  opacity: 0.4;\\n  transition: 0.4s;\\n}\\n\\n.select-window::-webkit-scrollbar {\\n  display: none;\\n}\\n\\n.select-window {\\n  max-height: 380px;\\n  scrollbar-width: none;\\n  -ms-overflow-style: none;\\n  overflow-y: scroll;\\n  position: absolute;\\n  background-color: #fff;\\n  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);\\n}\\n\\n.select-window-item {\\n  font-size: 18px;\\n  font-family: \\\"Roboto\\\";\\n  padding: 8px 8px;\\n}\\n\\n.select-window-item:hover {\\n  background: rgba(128, 128, 128, 0.15);\\n  cursor: pointer;\\n  transition: 0.5s;\\n}\\n\\n.select-window-item:first-of-type {\\n  padding-top: 8px;\\n}\\n\\n.select-window-item:last-of-type {\\n  padding-top: 8px;\\n}\\n\\n@media (max-width: 1180px) {\\n  .converter {\\n    align-items: center;\\n    flex-direction: column;\\n    justify-content: center;\\n    gap: 0px;\\n  }\\n}\\n@media (max-width: 450px) {\\n  .converter {\\n    padding-left: 15px;\\n    padding-right: 15px;\\n    gap: 10px;\\n  }\\n  .converter__input {\\n    font-size: 16px;\\n  }\\n  .converter__select {\\n    font-size: 16px;\\n  }\\n}\\n.equals {\\n  font-size: 56px;\\n  user-select: none;\\n}\\n\\n.long-text {\\n  font-size: 12px;\\n}\\n\\n/* Chrome, Safari, Edge, Opera */\\ninput::-webkit-outer-spin-button,\\ninput::-webkit-inner-spin-button {\\n  -webkit-appearance: none;\\n  margin: 0;\\n}\\n\\n/* Firefox */\\ninput[type=number] {\\n  -moz-appearance: textfield;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack-rss/./src/assets/styles/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  background-color: rgb(236, 237, 242);\\n}\\n\\n.header {\\n  background-color: white;\\n  padding-top: 24px;\\n  box-shadow: 0 8px 6px -6px #ccc;\\n}\\n.header__wrapper {\\n  font-family: \\\"Oswald\\\", sans-serif;\\n  max-width: 1280px;\\n  margin: 0 auto;\\n  padding: 0 24px 24px 24px;\\n}\\n.header__title {\\n  font-size: 36px;\\n}\\n.header__subtitle {\\n  font-family: \\\"Roboto\\\", \\\"Arial\\\", sans-serif;\\n  padding-left: 6px;\\n  padding-top: 12px;\\n  font-size: 14px;\\n  font-weight: light;\\n}\\n.header__title b {\\n  color: #34dbce;\\n}\\n.header__title, .header__title b {\\n  font-family: inherit;\\n  font-weight: 600;\\n}\\n\\n.converter {\\n  max-width: 900px;\\n  margin-left: auto;\\n  margin-right: auto;\\n  height: 75vh;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  gap: 30px;\\n  justify-content: space-between;\\n}\\n.converter__field {\\n  height: 65px;\\n  max-width: 400px;\\n  width: 100%;\\n  background-color: #fff;\\n  box-shadow: 0 8px 6px -6px #ccc;\\n  border-radius: 10px;\\n  display: flex;\\n  align-items: center;\\n  gap: 25px;\\n}\\n.converter__input {\\n  padding: 10px;\\n  margin-left: 10px;\\n  flex-grow: 1;\\n  outline: none;\\n  border: none;\\n  font-size: 18px;\\n  border-bottom: 2px solid rgb(158, 196, 198);\\n  padding-bottom: 2px;\\n}\\n.converter__select {\\n  color: rgb(71, 75, 84);\\n  padding: 10px;\\n  border-top-right-radius: 10px;\\n  border-bottom-right-radius: 10px;\\n  display: flex;\\n  align-items: center;\\n  text-align: right;\\n  font-family: \\\"Arial\\\", sans-serif;\\n  font-size: 18px;\\n  cursor: pointer;\\n  transition: 0.4s;\\n  height: 100%;\\n  background-color: rgb(163, 186, 201);\\n}\\n.converter__select:hover {\\n  opacity: 0.4;\\n  transition: 0.4s;\\n}\\n\\n.select-window::-webkit-scrollbar {\\n  display: none;\\n}\\n\\n.select-window {\\n  max-height: 380px;\\n  scrollbar-width: none;\\n  -ms-overflow-style: none;\\n  overflow-y: scroll;\\n  position: absolute;\\n  background-color: #fff;\\n  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);\\n}\\n\\n.select-window-item {\\n  font-size: 18px;\\n  font-family: \\\"Roboto\\\";\\n  padding: 8px 8px;\\n}\\n\\n.select-window-item:hover {\\n  background: rgba(128, 128, 128, 0.15);\\n  cursor: pointer;\\n  transition: 0.5s;\\n}\\n\\n.select-window-item:first-of-type {\\n  padding-top: 8px;\\n}\\n\\n.select-window-item:last-of-type {\\n  padding-top: 8px;\\n}\\n\\n@media (max-width: 1180px) {\\n  .converter {\\n    align-items: center;\\n    flex-direction: column;\\n    justify-content: center;\\n    gap: 0px;\\n  }\\n}\\n@media (max-width: 450px) {\\n  .converter {\\n    padding-left: 15px;\\n    padding-right: 15px;\\n    gap: 10px;\\n  }\\n  .converter__input {\\n    font-size: 16px;\\n  }\\n  .converter__select {\\n    font-size: 16px;\\n  }\\n}\\n.equals {\\n  font-size: 56px;\\n  user-select: none;\\n  color: #7e9ffa;\\n}\\n\\n.long-text {\\n  font-size: 12px;\\n}\\n\\n/* Chrome, Safari, Edge, Opera */\\ninput::-webkit-outer-spin-button,\\ninput::-webkit-inner-spin-button {\\n  -webkit-appearance: none;\\n  margin: 0;\\n}\\n\\n/* Firefox */\\ninput[type=number] {\\n  -moz-appearance: textfield;\\n}\\n\\n.footer {\\n  display: flex;\\n  flex-direction: column;\\n  text-align: center;\\n  justify-content: center;\\n  gap: 3px;\\n  font-family: \\\"Roboto\\\";\\n}\\n\\n.portfolio {\\n  font-family: \\\"Roboto\\\";\\n  transition: 0.3s;\\n  color: rgb(163, 186, 201);\\n}\\n\\n.portfolio:hover {\\n  color: black;\\n  transition: 0.3s;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack-rss/./src/assets/styles/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -57,6 +57,16 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://webpack-rss/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./src/assets/img/spin.gif":
+/*!*********************************!*\
+  !*** ./src/assets/img/spin.gif ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/spin.gif\");\n\n//# sourceURL=webpack://webpack-rss/./src/assets/img/spin.gif?");
 
 /***/ }),
 
@@ -166,7 +176,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_styles_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/styles/style.css */ \"./src/assets/styles/style.css\");\n/* harmony import */ var _assets_styles_style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/styles/style.scss */ \"./src/assets/styles/style.scss\");\n/* harmony import */ var _assets_styles_normalize_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/styles/normalize.scss */ \"./src/assets/styles/normalize.scss\");\n/* harmony import */ var _scripts_app_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../scripts/app.js */ \"./src/scripts/app.js\");\n/* harmony import */ var _scripts_select_window_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../scripts/select-window.js */ \"./src/scripts/select-window.js\");\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://webpack-rss/./src/scripts/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_styles_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/styles/style.css */ \"./src/assets/styles/style.css\");\n/* harmony import */ var _assets_styles_style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/styles/style.scss */ \"./src/assets/styles/style.scss\");\n/* harmony import */ var _assets_styles_normalize_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/styles/normalize.scss */ \"./src/assets/styles/normalize.scss\");\n/* harmony import */ var _assets_img_spin_gif__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/img/spin.gif */ \"./src/assets/img/spin.gif\");\n/* harmony import */ var _scripts_app_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../scripts/app.js */ \"./src/scripts/app.js\");\n/* harmony import */ var _scripts_select_window_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../scripts/select-window.js */ \"./src/scripts/select-window.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://webpack-rss/./src/scripts/index.js?");
 
 /***/ }),
 
@@ -231,6 +241,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _app
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -245,6 +267,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _app
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/

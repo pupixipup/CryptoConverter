@@ -20,10 +20,10 @@ body {
     font-size: 36px;
   }
   &__subtitle {
+    font-family: 'Roboto', 'Arial', sans-serif;
     padding-left: 6px;
     padding-top: 12px;
     font-size: 14px;
-    font-family: 'Arial', sans-serif;
     font-weight: light;
   }
   &__title b {
@@ -42,7 +42,7 @@ body {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  height: 60vh;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,7 +78,8 @@ body {
 		// .converter__select
 
 		&__select {
-      padding: 5px;
+      color: rgb(71, 75, 84);
+      padding: 10px;
       border-top-right-radius: 10px;
       border-bottom-right-radius: 10px;
       display: flex;
@@ -157,6 +158,7 @@ body {
 .equals {
   font-size: 56px;
   user-select: none;
+  color: #7e9ffa;
 }
 
 .long-text {
@@ -173,4 +175,24 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 3px;
+  font-family: 'Roboto';
+}
+
+.portfolio {
+  font-family: 'Roboto';
+  transition: .3s;
+  color: rgb(163, 186, 201);
+}
+.portfolio:hover {
+  color: black;
+  transition: .3s;
 }
