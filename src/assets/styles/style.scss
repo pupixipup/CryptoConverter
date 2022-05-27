@@ -68,5 +68,44 @@
       font-family: 'Arial', sans-serif;
       font-size: 24px;
       cursor: pointer;
+      transition: .4s;
 		}
+    &__select:hover {
+      opacity: .4;
+      transition: .4s;
+    }
+    
+}
+.select-window::-webkit-scrollbar {
+  display: none;
+}
+
+.select-window {
+  max-height: 380px;
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+  overflow-y: scroll;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 5px 5px -3px rgb(0 0 0 / 20%), 0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%);
+}
+
+.select-window-item {
+  font-size: 18px;
+  font-family: 'Roboto';
+  padding: 8px 8px;
+}
+
+.select-window-item:hover {
+  background: rgba(grey, 0.15);
+  cursor: pointer;
+  transition: .5s;
+}
+
+.select-window-item:first-of-type {
+  padding-top: 8px;
+}
+
+.select-window-item:last-of-type {
+  padding-top: 8px;
 }
