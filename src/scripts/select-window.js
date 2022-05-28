@@ -11,7 +11,7 @@ function showPopup() {
     popup.classList.add("select-window");
     popup.innerHTML = displayCurrencies(obj);
     popup.style.top = this.offsetTop + "px";
-    popup.style.left = this.offsetLeft + "px";
+    popup.style.left = this.offsetLeft - popup.offsetWidth + "px";
     document.body.append(popup);
     isPopupShown = true;
   }
@@ -36,7 +36,9 @@ function displayCurrencies(currencies) {
   let htmlData = "";
   let counter = 0;
   for (let item of currencies) {
-    htmlData += `<li data-index="${counter}" class="select-window-item">${item.name}</li>`;
+    htmlData += `<li data-index="${counter}" class="select-window-item">
+    <img class='crypto-icon' alt='${item.name}' src='${item.iconUrl}'>
+     <div class='crypto-name'>${item.name}</div> </li>`;
     counter++;
   }
   return htmlData;

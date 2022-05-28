@@ -109,6 +109,8 @@ body {
 }
 
 .select-window-item {
+  display: flex;
+  align-items: center;
   font-size: 18px;
   font-family: 'Roboto';
   padding: 8px 8px;
@@ -202,4 +204,9 @@ input[type=number] {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.crypto-icon {
+  width: 25px;
+  margin-right: 10px;
 }
