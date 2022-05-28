@@ -74,6 +74,7 @@ body {
 		// .converter__select
 
 		&__select {
+     
       color: rgb(71, 75, 84);
       padding: 10px;
       border-top-right-radius: 10px;
@@ -140,6 +141,9 @@ body {
 }
 
 @media (max-width: 450px) {
+  .converter__field {
+    gap: 5px;
+  }
   .converter {
     padding-left: 15px;
     padding-right: 15px;
@@ -148,7 +152,8 @@ body {
       font-size: 16px;
     }
     &__select {
-      font-size: 16px;
+      padding: 8px;
+      font-size: 14px;
     }
   }
 }
@@ -177,6 +182,7 @@ input[type=number] {
 
 
 .footer {
+  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -209,4 +215,38 @@ input[type=number] {
 .crypto-icon {
   width: 25px;
   margin-right: 10px;
+}
+
+.crypto-name, .list__body-cell {
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+
+.list {
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow-x: scroll;
+  &__wrapper {
+    @media (max-width: 1170px) {
+      display: block;
+    }
+    margin-bottom: 35px;
+display: flex;
+justify-content: center;
+  }
+  &__table {
+    overflow-x: scroll;
+    display: table;
+  }
+  &__body {
+   
+  }
+  &__body-row {
+
+    border-bottom: 1px solid rgb(188, 188, 188);
+  }
+  &__body-cell {
+    padding: 15px;
+  }
 }

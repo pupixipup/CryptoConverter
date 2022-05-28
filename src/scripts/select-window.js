@@ -36,9 +36,7 @@ function displayCurrencies(currencies) {
   let htmlData = "";
   let counter = 0;
   for (let item of currencies) {
-    htmlData += `<li data-index="${counter}" class="select-window-item">
-    <img class='crypto-icon' alt='${item.name}' src='${item.iconUrl}'>
-     <div class='crypto-name'>${item.name}</div> </li>`;
+    htmlData += `<li data-index="${counter}" class="select-window-item">${item.name}</li>`;
     counter++;
   }
   return htmlData;
@@ -100,3 +98,34 @@ function convertCurrency(inputFrom, inputTo) {
 
 //
 document.querySelector(".disclaimer").remove();
+
+
+///
+
+function drawTable(listings) {
+  let tableBody = document.querySelector(".list__body");
+
+  tableBody.innerHTML = `<tr class="list__body-row">
+<td class="list__body-cell">Name</td>
+<td class="list__body-cell">Icon</td>
+<td class="list__body-cell">USD Price</td>
+<td class="list__body-cell">BTC Price</td>
+<td class="list__body-cell">Symbol</td>
+<td class="list__body-cell">Rank</td>
+<td class="list__body-cell">UUID</td>
+</tr>`;
+  let tableContent = "";
+  for (let elem of listings) {
+    tableContent += `<tr class="list__body-row">
+<td class="list__body-cell">${elem.name}</td>
+<td class="list__body-cell">${elem.symbol}</td>
+<td class="list__body-cell">${elem.price}</td>
+<td class="list__body-cell">${elem.btcPrice}</td>
+<td class="list__body-cell"><img src='${elem.iconUrl}' alt='${elem.name}' class='crypto-icon'></td>
+<td class="list__body-cell">${elem.rank}</td>
+<td class="list__body-cell">${elem.uuid}</td>
+</tr>`;
+  }
+
+  tableBody.innerHTML += tableContent;
+}
