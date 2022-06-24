@@ -93,7 +93,7 @@ fieldOne.addEventListener("input", () => {
 function convertCurrency(inputFrom, inputTo) {
   let value = Number.parseFloat(inputFrom.value).toFixed(6);
   inputTo.value =
-    (value * inputFrom.dataset.btcprice) / inputTo.dataset.btcprice;
+    ((value * inputFrom.dataset.btcprice) / inputTo.dataset.btcprice).toFixed(4);
 }
 
 //
