@@ -96,12 +96,6 @@ function convertCurrency(inputFrom, inputTo) {
     ((value * inputFrom.dataset.btcprice) / inputTo.dataset.btcprice).toFixed(4);
 }
 
-//
-document.querySelector(".disclaimer").remove();
-
-
-///
-
 function drawTable(listings) {
   let tableBody = document.querySelector(".list__body");
 
