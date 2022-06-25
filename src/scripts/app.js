@@ -13,7 +13,6 @@ async function main() {
   obj = await getJson();
   obj = await obj.data.coins;
   await drawTable(obj);
-  console.log(obj);
 }
 
 main();

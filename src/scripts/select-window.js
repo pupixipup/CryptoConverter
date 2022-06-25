@@ -11,7 +11,7 @@ function showPopup() {
     popup.classList.add("select-window");
     popup.innerHTML = displayCurrencies(obj);
     popup.style.top = this.offsetTop + "px";
-    popup.style.left = this.offsetLeft - popup.offsetWidth + "px";
+    popup.style.left = `${this.offsetLeft - (popup.offsetWidth * 3) - 175}px`;
     document.body.append(popup);
     isPopupShown = true;
   }
@@ -126,6 +126,5 @@ function drawTable(listings) {
 <td class="list__body-cell">${elem.uuid}</td>
 </tr>`;
   }
-
   tableBody.innerHTML += tableContent;
 }
